@@ -20,4 +20,8 @@
     <li><strong>Genre with Science</strong> {{ num_genres_that_contains_the_word_science }}</li>
     <li><strong>Book with Machine</strong> {{ num_books_that_contains_the_word_machine }}</li>
   </ul>
+
+  <p>
+    You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.
+  </p>
 {% endblock %}
